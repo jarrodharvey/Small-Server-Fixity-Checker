@@ -4,7 +4,7 @@ To run a fixity check, the storage service needs to first download an AIP from S
 
 If there are 10TB worth of AIPs in S3, and only 220GB available on the server, then this may create a problem. The command "fixity scanall" will attempt to download 10TB worth of AIPs to a 220GB server!
 
-This script acts similarly to fixity scanall, but it downloads, scans and then deletes each AIP *one at a time* from /var/archivematica/storage_servive.
+This script acts similarly to fixity scanall, but it downloads, scans and then deletes each AIP *one at a time*.
 
 It does not delete AIPs from S3, it only deletes locally saved copies!
 

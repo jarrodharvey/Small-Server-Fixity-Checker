@@ -6,6 +6,14 @@ If there are 10TB worth of AIPs in S3, and only 220GB available on the server, t
 
 This script acts similarly to fixity scanall, but it deletes each AIP from /var/archivematica/storage_servive after it is scanned rather than leaving them in place to accumulate.
 
-Artefactual's fixity application must first be installed for this to work: https://www.archivematica.org/en/docs/storage-service-0.13/fixity/
+### Installation ###
 
-The package 'jq' is also required to parse the JSON returned by a REST request: https://stedolan.github.io/jq/
+Make sure that Artefactual's fixity application is installed.
+
+Make sure that [Artefactual's fixity application](https://www.archivematica.org/en/docs/storage-service-0.13/fixity/) is installed.
+
+Install the package jq.
+
+```bash
+sudo apt-get install jq
+```

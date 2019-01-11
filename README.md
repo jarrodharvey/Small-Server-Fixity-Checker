@@ -15,3 +15,5 @@ Install the package jq.
 ```bash
 sudo apt-get install jq
 ```
+
+You should now be able to run the script from the command line.

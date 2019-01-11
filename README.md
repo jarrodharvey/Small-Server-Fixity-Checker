@@ -1,6 +1,6 @@
 This script is intended for use with Archivematica, when Amazon S3 is set as the storage space.
 
-To run a fixity check, the storage service needs to first download an AIP from S3 before it can begin scanning. This AIP is then downloaded to /var/archivematica/storage_service.
+[Artefactual's fixity checker tool](https://www.archivematica.org/en/docs/storage-service-0.13/fixity/) works by downloading AIPs from S3 to /var/archivematica/storage_service before it begins scanning. 
 
 If there are 10TB worth of AIPs in S3, and only 220GB available on the server, then this may create a problem. The command "fixity scanall" will attempt to download 10TB worth of AIPs to a 220GB server!
 
@@ -10,7 +10,7 @@ It does not delete AIPs from S3, it only deletes locally saved copies!
 
 ### Installation ###
 
-Make sure that [Artefactual's fixity application](https://www.archivematica.org/en/docs/storage-service-0.13/fixity/) is installed.
+Make sure that [Artefactual's fixity checker tool](https://www.archivematica.org/en/docs/storage-service-0.13/fixity/) is installed.
 
 Install the package jq.
 

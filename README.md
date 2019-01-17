@@ -17,3 +17,7 @@ Install the package jq.
 ```bash
 sudo apt-get install jq
 ```
+
+Run the script as archivematica.
+
+sudo -u archivematica ./small_server_fixity_check.sh

@@ -8,8 +8,6 @@ This script acts similarly to fixity scanall, but it deletes each AIP from /var/
 
 ### Installation ###
 
-Make sure that Artefactual's fixity application is installed.
-
 Make sure that [Artefactual's fixity application](https://www.archivematica.org/en/docs/storage-service-0.13/fixity/) is installed.
 
 Install the package jq.

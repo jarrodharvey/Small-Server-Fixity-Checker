@@ -14,4 +14,4 @@ It does not delete AIPs from S3, it only deletes locally saved temporary copies!
 
 2. Install the package [jq](https://stedolan.github.io/jq/download/).
 
-3. Run the script as the user archivematica
+3. Run the script as the user archivematica.
